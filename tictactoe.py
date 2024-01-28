@@ -75,9 +75,10 @@ def game():
             printBoard(theBoard)
             print("\nGame Over.\n")
             print("It is a tie :( ")
+            break
             
         if player == "X":
-            player = "O"
+            player = "*"
         else:
             player = "X"
         
